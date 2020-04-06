@@ -9,6 +9,7 @@ public class GameController : MonoBehaviour
     
     public static GameController instance { private set; get; }
     public GameObject gameOverText;
+    public float ballStartSpeed = -1f;
     public bool gameOver = false;
     public float scrollSpeed = -1.5f;
     private int score = 0;
